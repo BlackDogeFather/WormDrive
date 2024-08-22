@@ -1,0 +1,157 @@
+/* General layout adjustments */
+body {
+  font-family: "Orbitron", sans-serif; /* Futuristic and tech-focused font */
+  background-color: #0a0a0a; /* Match background color with the logo image */
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #101010;
+}
+
+header .logo img {
+  max-width: 600px; /* Adjust logo size for better visual appeal */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 10px 0;
+  color: #00ff00; /* Neon green to match the futuristic theme */
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ffff;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 0 auto;
+  max-width: 1100px; /* Adjusted width for better text flow */
+  line-height: 1.6;
+  padding: 0 20px; /* Add padding to create space around text */
+}
+
+section {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1100px; /* Maintain consistency with text width */
+  background-color: #1b1b1b;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+}
+
+/* Adjust upload widget */
+#wormdrive-app {
+  text-align: left;
+  padding: 30px;
+  background-color: #2c2c2c;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+  margin-top: 20px;
+  max-width: 850px; /* Make the widget slightly wider */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#connectWalletButton {
+  display: block;
+  width: auto; /* Adjust the button width */
+  padding: 12px 25px; /* More balanced padding */
+  font-size: 1.2em;
+  color: #000000;
+  background-color: #00ff00;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px #00ff00, 0 0 20px #00ffff;
+  cursor: pointer;
+  text-align: center;
+}
+
+#connectWalletButton:hover {
+  background-color: #00ffff;
+  box-shadow: 0 0 15px #00ff00, 0 0 30px #00ffff;
+}
+
+#upload-button {
+  width: 100%; /* Button spans the width of the container */
+  padding: 15px;
+  font-size: 1.2em;
+  color: #000000;
+  background-color: #00ff00;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ff00, 0 0 20px #00ffff;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px; /* Add spacing above the upload button */
+}
+
+#upload-button:disabled {
+  background-color: #555555;
+  color: #999999;
+  cursor: not-allowed;
+}
+
+#upload-button:hover:enabled {
+  background-color: #00ffff;
+  box-shadow: 0 0 15px #00ff00, 0 0 30px #00ffff;
+}
+
+/* Adjust text sections */
+#wormdrive-intro,
+#wormdrive-lowdown {
+  padding: 20px 40px;
+  max-width: 1100px; /* Match the width of the sections */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Adjust upload history */
+#upload-history {
+  margin-top: 30px;
+  background-color: #2b2b2b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+  max-width: 850px; /* Match the width of the widget */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#upload-list {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+#upload-list li {
+  margin-bottom: 10px;
+  color: #00ffff;
+}
+
+#upload-list li a {
+  color: #00ff00;
+  text-decoration: underline;
+}
+
+#upload-list li a:hover {
+  color: #00ffff;
+}
